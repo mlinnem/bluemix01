@@ -1,1 +1,1 @@
-web: rake db:migrate && bundle exec rails server -p $PORT
+web: rake db:create && rake db:migrate && bundle exec rails server -p $PORT
