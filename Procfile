@@ -1,0 +1,1 @@
+web: rake db:migrate && bundle exec rails server -p $PORT
